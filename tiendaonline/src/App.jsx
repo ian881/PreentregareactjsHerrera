@@ -2,15 +2,19 @@
 
 import './App.css'
 import NavScrollExample from './components/NavBar/NavBar';
-
+import itemlistcontainer from './components/Itemlistcontainer/itemlistcontainer';
 
 
   function App() {
     return (
         <div className="App">
-          <nav><NavScrollExample></NavScrollExample></nav>
+        
+          <NavScrollExample></NavScrollExample>
+
+          <itemlistcontainer greeting="TiendaOnline">TiendaOnline</itemlistcontainer>
+         
         </div>
-      
+     
     );
 }
  

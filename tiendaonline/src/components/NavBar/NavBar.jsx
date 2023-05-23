@@ -10,10 +10,10 @@ import CardWidget from '../CardWidget/CardWidget';
 function NavScrollExample() {
   return ( 
     <div className='divnav'>
-        
+        <nav>
           <Navbar  variant="dark" expand="lg">
               <Container fluid>
-                  <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                  <Navbar.Brand href="#">Tienda Online</Navbar.Brand>
                   <Navbar.Toggle aria-controls="navbarScroll" />
                   <Navbar.Collapse id="navbarScroll">
                       <Nav
@@ -21,29 +21,27 @@ function NavScrollExample() {
                           style={{ maxHeight: '100px' }}
                           navbarScroll
                       >
-                          <Nav.Link href="#action1">Home</Nav.Link>
-                          <Nav.Link href="#action2">Link</Nav.Link>
-                          <NavDropdown title="Link" id="navbarScrollingDropdown">
-                              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                          <Nav.Link href="#action1">Inicio</Nav.Link>
+                          <Nav.Link href="#action2">Productos</Nav.Link>
+                          <NavDropdown title="Ofertas" id="navbarScrollingDropdown">
+                              <NavDropdown.Item href="#action3">Ofertas</NavDropdown.Item>
                               <NavDropdown.Item href="#action4">
-                                  Another action
+                                  Apruebeme 
                               </NavDropdown.Item>
                               <NavDropdown.Divider />
                               <NavDropdown.Item href="#action5">
-                                  Something else here
+                                  porfa
                               </NavDropdown.Item>
                           </NavDropdown>
-                          <Nav.Link href="#" disabled>
-                              Link
-                          </Nav.Link>
+                         
                       </Nav>
                       <Form className="d-flex">
                           <Form.Control
                               type="search"
-                              placeholder="Search"
+                              placeholder="Buscar"
                               className="me-2"
                               aria-label="Search" />
-                          <Button variant="outline-success">Search</Button>
+                          <Button variant="outline-success">Buscar</Button>
                       </Form>
                       
                   </Navbar.Collapse>
@@ -51,7 +49,7 @@ function NavScrollExample() {
               </Container>
            
           </Navbar>
-        
+         </nav>
       </div>
       
   );
