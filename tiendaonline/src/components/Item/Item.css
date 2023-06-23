@@ -1,0 +1,5 @@
+.CardItem{
+    background-color: rgb(109, 99, 99);
+    display:inline-flex;
+    width: 30%;
+}
